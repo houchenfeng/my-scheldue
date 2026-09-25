@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的日程</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- G1 Topbar -->
+  <header id="topbar">
+    <div id="topbar-title">我的日程</div>
+    <div id="topbar-info"></div>
+    <button id="topbar-settings">⚙</button>
+  </header>
+  
+  <!-- G2 Nav -->
+  <nav id="main-nav"></nav>
+  
+  <!-- G3 Reminder bar -->
+  <div id="remind-bar">
+    <span class="remind-item"></span>
+    <button class="remind-dismiss">×</button>
+  </div>
+  
+  <!-- G4 Page containers -->
+  <main>
+    <section id="page-home" class="page"></section>
+    <section id="page-timetable" class="page"></section>
+    <section id="page-todos" class="page"></section>
+  </main>
+  
+  <!-- Modal root -->
+  <div id="modal-root"></div>
+  
+  <script src="js/seed.js"></script>
+  <script src="js/dates.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/page-timetable.js"></script>
+  <script src="js/page-todos.js"></script>
+  <script src="js/page-home.js"></script>
+  <script src="js/remind.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
